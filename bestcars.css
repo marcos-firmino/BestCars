@@ -1,0 +1,125 @@
+body {
+    background-color: #121212;
+    max-width: 1200px;
+    margin: 0;
+    margin: 0 auto;
+}
+img {
+    height: 200px;
+    width: auto;
+}
+summary {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 2%;
+    color: white;
+}
+ul > li {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2%;
+    color: white;
+}
+ol > li {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2%;
+    color: white;
+}
+p, article {
+    text-indent: 4%;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+footer {
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.logotipo {
+    height: 40px;
+    width: auto;
+}
+nav {
+    height: 100%;
+    width: 0px;
+    background-color: #242424;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: width 0.3s;
+}
+main {
+    transition: margin-left 0.5s;
+}
+nav > a {
+    color:white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    padding:12px 10px 12px 32px;
+    margin-bottom: 3%;
+}
+nav a:hover {
+    color:rgb(239, 244, 248);
+    background-color: dodgerblue;
+}
+a {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 3%;
+}
+header {
+    padding: 10px;
+    background-color: black;
+    width: 130%;
+    left: -19%;
+    text-align: center;
+    position: relative;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.title {
+    font-size: larger;
+}
+a:visited, a:link {
+    color:dodgerblue;
+    text-decoration: none;
+}
+.fim {
+    margin-top: 4%;
+}
+ol > ul > li {
+    list-style:disc
+}
+.cars {
+    margin-bottom: 2%;
+}
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px; 
+    background-color: #242424;
+}
+aside > a {
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5%;
+}
